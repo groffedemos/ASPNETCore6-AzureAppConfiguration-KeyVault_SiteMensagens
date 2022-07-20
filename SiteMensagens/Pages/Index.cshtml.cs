@@ -22,6 +22,6 @@ public class IndexModel : PageModel
 
         var aviso = _configuration["Mensagens:Aviso"];
         TempData["Aviso"] = aviso;
-        _logger.LogInformation($"Mensagens:Saudacao = {aviso}");
+        _logger.LogInformation($"Mensagens:Aviso = {aviso}");
     }
 }
